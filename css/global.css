@@ -1,0 +1,18 @@
+.html{
+    scroll-behavior:smooth;
+    scroll-snap-type: y mandatory;
+}
+.section{
+    scroll-snap-align: start;
+    scroll-margin-top: 80px;
+}
+.body{
+    animation: fadeIn 10s ease-in;
+}
+.header{
+    position: sticky;
+    top:0;
+}
+.highlight{
+    color: #00f7ff;
+}

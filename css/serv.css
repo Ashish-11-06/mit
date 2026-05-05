@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-color:#0f172a;
+color:white;
+font-family:sans-serif;
+margin: 0;
+padding: 0 20px;
+}
+.logo{
+     font-size: 26px;
+    font-weight: 600;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 8%;
+}
+.serv-links{
+list-style:none;
+display:flex;
+margin-left: auto;
+gap:30px;
+justify-content: space-between;
+width: auto;
+margin: 0;
+padding:0;
+}
+.serv-links a{
+color:white;
+text-decoration:none;
+margin: 10px;
+
+}
+.serv-links a:hover,
+.serv-links a.active{
+    color:#00f7ff;
+}
+.services {
+  background: #1f242d;
+  color: #fff;
+  text-align: center;
+  padding: 60px 10%;
+}
+/* .highlight{
+    color: #00f7ff;
+} */
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.services-lists {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.service-box {
+  align-items: center;
+  background: #323946;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  transition: 0.25s;
+}
+.service-box:hover {
+  transform: translatey(-10px);
+  box-shadow: 0 0 20px #0ef;
+}
+.service-box i {
+  font-size: 40px;
+  color: #0ef;
+  margin-bottom: 15px;
+}
+.service-box h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.service-box p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.service-box a{
+  margin-right: 50px;
+}
